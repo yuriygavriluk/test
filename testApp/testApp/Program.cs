@@ -14,6 +14,7 @@ namespace TestApp
             TestClass.Method();
 
             Console.WriteLine("Changes in master branch");
+            Console.WriteLine("Changes from another place");
         }
     }
 }
