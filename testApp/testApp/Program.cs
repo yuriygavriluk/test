@@ -11,18 +11,6 @@ namespace TestApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            Method();
-        }
-
-        public static void Method()
-        {
-            using (FileStream fileStream = new FileStream("c:\test", FileMode.Open))
-            {
-                using (StreamReader reader = new StreamReader(fileStream))
-                {
-                    Console.WriteLine();
-                }
-            }
         }
     }
 }
