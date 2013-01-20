@@ -12,6 +12,8 @@ namespace TestApp
         {
             Console.WriteLine("Hello world");
             TestClass.Method();
+
+            Console.WriteLine("Changes in testBranch new");
         }
     }
 }
